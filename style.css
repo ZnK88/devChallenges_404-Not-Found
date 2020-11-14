@@ -1,0 +1,101 @@
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleMainPage {
+    font-size: 25px;
+    margin-left: 77px;
+    /* font-family: "Space Mono"; */
+    font-family: "Inconsolata";
+    font-weight: 700;
+}
+
+h2 {
+    font-family: "Space Mono";
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.mainContain {
+    display: flex;
+    flex-direction: column;
+    margin-top: 265px;
+}
+
+.ContainerText {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+p {
+    font-size: 24px;
+    font-family: "Space Mono";
+    font-weight: normal;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+img {
+    width: 539px;
+    height: 447px;
+}
+
+.buttonBack {
+    background-color: #333333;
+    color: white;
+    width: 216px;
+    height: 68px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+.btnText {
+    font-family: "Space Mono";
+    font-weight: 700;
+    font-style: normal;
+}
+
+h4 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 14px;
+}
+
+@media (max-width: 640px) {
+    .ContainerText {
+        flex-direction: column;
+    }
+
+    img {
+        width: 286px;
+        height: 238px;
+    }
+
+    .imgBox {
+        display: flex;
+        justify-content: center;
+    }
+    h2 {
+        font-size: 48px;
+    }
+    p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .mainContain {
+        margin-top: 109px;
+    }
+}
